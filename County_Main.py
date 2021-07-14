@@ -39,9 +39,7 @@ class County_Zipcodes:
 
 		file_Loaded_List = [file_Load_Column[x].value for x in range(len(file_Load_Column))]
 
-		# O(N) notation currently
 		# will try and add to the rework the Zipcodes import to add functionality for a bool matching function
-		# for o(1) notation
 		# Credit: https://github.com/seanpianka/Zipcodes
 
 		for x in file_Loaded_List:
